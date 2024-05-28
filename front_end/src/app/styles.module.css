@@ -1,0 +1,29 @@
+.homebg {
+  background-color: #1b0536;
+  background-repeat: no-repeat;
+  background-position: 65%;
+  background-size: contain;
+  background-image: url(./images/bgimage.png);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 150px;
+  overflow: hidden;
+}
+
+.blurbox {
+  width: 30%;
+  height: 50%;
+  background: rgb(105, 1, 100);
+  background: linear-gradient(
+    to bottom,
+    rgba(105, 1, 100, 1),
+    rgba(76, 1, 103, 1) 35%,
+    rgba(72, 1, 105, 1) 100%
+  );
+  filter: blur(30px);
+  position: absolute;
+  bottom: -50px;
+  right: 5px;
+  border-radius: 100%;
+  border: none;
+}
